@@ -1,0 +1,23 @@
+= PlantUMLを含んだAsciiDocをCodeBuild/CodePipelineでHTMLに変換するテスト
+
+https://s3-ap-northeast-1.amazonaws.com/asciidoc-codepipeline-example/README.html[変換後]
+
+== GitHub上で表示される
+
+* このあたりは
+* Githubで普通に表示される
+
+== Github上では表示できない
+* PlantUmlはGitHub上では表示されない(ただの文字列になる)
+
+[plantuml, diagram-classes, png]
+----
+class Animal {
+  run()
+}
+
+class Cat extends Animal {
+}
+----
+
+
